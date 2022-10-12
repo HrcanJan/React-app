@@ -1,6 +1,6 @@
 import './Card.css'
 
-function Card(prop) {
+const Card = (prop) => {
     const classes = 'card ' + prop.className;
 
     return (<div className={classes}>{prop.children}</div>);
