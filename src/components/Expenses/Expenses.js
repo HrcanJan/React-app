@@ -3,6 +3,7 @@ import './Expenses.css';
 import Card from '../UI/Card';
 
 const Expenses = (prop) => {
+    
     return (
         <Card className='expenses'>
             <ExpenseItem
